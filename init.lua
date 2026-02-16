@@ -660,6 +660,11 @@ require('lazy').setup({
     end,
   },
 
+  -- LLM
+  {
+    'github/copilot.vim',
+  },
+
   { -- Autoformat
     'stevearc/conform.nvim',
     event = { 'BufWritePre' },
